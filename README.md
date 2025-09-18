@@ -1,4 +1,4 @@
-#microfinance-system-sql
+# microfinance-system-sql
 This project demonstrates how SQL can be applied in a microfinance savings and loansd system to generate actionable business insights. 
 The database models member accounts, savings, loans and the queries deliver reports that supports
 - Financial monitoring
