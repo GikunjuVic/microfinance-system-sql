@@ -4,3 +4,11 @@ The database models member accounts, savings, loans and the queries deliver repo
 - Financial monitoring
 - Portfolio Performance 
 - Risk Management 
+
+
+## 📄 Documentation
+
+Explore the detailed reports; 
+
+1. [SQL Analysis](analysis.md) – a comprehensive collection of queries with **problems, insights, and SQL Queries** for tracking savings, loans, and generating actionable business reports.
+
