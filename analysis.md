@@ -92,7 +92,7 @@ ORDER BY
 
 ## Problem 4: List all savings accounts that are active and not yet matured. 
 
-**Insight:** This is  limited to Fixed Savings as it has a maturity date. This query helps the organizatiopn monitor active savings accounts that are within their operation limits.
+**Insight:** This is  limited to Fixed Savings as it has a maturity date. This query helps the organization monitor active savings accounts that are within their operation limits.
 
 ## SQL QUERY 
 
