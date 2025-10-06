@@ -1,3 +1,24 @@
+#  Microfinance SQL Business Insights
+
+A collection of SQL queries and business insights designed for a microfinance management system.  
+Each query addresses a real operational or financial challenge — tracking savings, loans, customer activity, and performance metrics to support **reporting, decision-making, and portfolio management**.
+
+
+## 📑 Table of Contents
+
+1. [Problem 1: All Financial Transactions](#problem-1-retrieve-a-complete-list-of-all-financial-transactions-credits-debits-and-balance-updates-across-customer-accounts-along-with-related-customer-and-account-details)
+2. [Problem 2: Customers with Fixed Savings Account](#problem-2-retrieve-and-report-on-customers-who-currently-hold-fixed-savings-account-with-a-non-zero-balance)
+3. [Problem 3: Customers with Current Savings Account](#problem-3-retrieve-and-report-on-customers-who-currently-hold-cuurent-savings-account-with-a-non-zero-balance)
+4. [Problem 4: Active Savings (Not Yet Matured)](#problem-4-list-all-savings-accounts-that-are-active-and-not-yet-matured)
+5. [Problem 5: Total Active Savings by Currency](#problem-5-calculate-the-total-number-of-active-savings-accounts-not-matured-and-the-the-total-amount-in-currency)
+6. [Problem 6: Loans Issued and Not Yet Matured](#problem-6-retrieve-all-loans-that-have-been-issued-but-are-not-yet-matured-including-loan-details-outstanding-balances-and-related-customer-information)
+7. [Problem 7: Matured Fixed Savings Withdrawals](#problem-7-retrieve-all-fixed-savings-accounts-that-have-matured-and-been-disbursed-including-whether-withdrawals-occurred-before-or-after-maturity)
+8. [Problem 8: Matured Fixed Savings and Interest](#problem-8-retrieve-all-matured-fixed-savings-accounts-and-calculate-the-interest-earned-for-each-account-up-to-its-maturity-date)
+9. [Problem 9: Customers with Zero Savings Balance](#problem-9-identify-customers-who-have-one-or-more-savings-accounts-but-currently-have-no-balance-in-any-of-them)
+10. [Problem 10: Cancelled Fixed Accounts (Early Withdrawals)](#problem-10-identify-customers-who-withdrew-their-savings-from-a-fixed-deposit-account-before-the-maturity-date-effectively-cancelling-the-ongoing-fixed-account)
+11. [Problem 11: Pending or Overdue Loans](#problem-11-identify-loans-that-have-reached-or-passed-their-due-date-but-still-have-outstanding-balances-including-unpaid-principal-interest-or-penalties)
+
+
 ## Problem 1: Retrieve a complete list of all financial transactions (credits, debits, and balance updates) across customer accounts, along with related customer and account details.
 
 **Insight:** This query provides a comprehensive transaction ledger for the institution. It is the single most important dataset for auditing, reconciliation, fraud detection, and reporting. It connects every movement of money to a customer and the account type, offering a full picture of operational activity in the microfinance system.
